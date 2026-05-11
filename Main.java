@@ -24,6 +24,12 @@
    	//sample code for loop priming
 	System.out.print("Enter a number (0 to stop): ");
   	input = in.nextInt();
+	while (input != 0) {
+		//add code here to process the input
+
+		System.out.print("Enter a number (0 to stop): ");
+  		input = in.nextInt();
+	}
   
 	//add loop here
 
